@@ -18,12 +18,12 @@ const FeedbackPage = () => {
     message: ''
   });
 
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (!token) {
-      navigate('/login-register');
-    }
-  }, [navigate]);
+  // useEffect(() => {
+  //   const token = localStorage.getItem('token');
+  //   if (!token) {
+  //     navigate('/login-register');
+  //   }
+  // }, [navigate]);
 
   const handleInputChange = (e) => {
     setFormData({
