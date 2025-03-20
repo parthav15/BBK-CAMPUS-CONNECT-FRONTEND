@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
